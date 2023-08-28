@@ -376,7 +376,7 @@ if __name__=="__main__":
 
 ## 5. Diagram and description
 
-```
+```python
 
 Project work diagram:
        +-------------------+
