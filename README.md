@@ -365,12 +365,7 @@ if __name__=="__main__":
     # train(num_epochs, cnn, loaders) # This line runs only once. 
     test()
 
-```
 
-### 3. Visualization   
-```python
-
-```
 
 ```
 
