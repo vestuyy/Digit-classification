@@ -371,3 +371,48 @@ if __name__=="__main__":
 ```python
 
 ```
+
+```
+
+### 5. Diagram and description
+
+```
+
+Project work diagram:
+       +-------------------+
+       |    Data Loader    |
+       +-------------------+
+                |
+                v
+       +-------------------+
+       |  CNN Architecture |
+       +-------------------+
+                |
+                v
+       +-------------------+
+       |      Training     |
+       +-------------------+
+                |
+                v
+       +-------------------+
+       |      Testing      |
+       +-------------------+
+
+
+Description:
+
+Data Loader :
+In this part of the project, the code for loading and pre-processing data is implemented. The original images of handwritten digits (for example, from the MNIST dataset) are loaded and converted into a format suitable for feeding into a neural network. 
+Data augmentation can also be applied here to improve communication ability models.
+
+CNN Architecture (Architecture of back neural network):
+This part of the project uses a rotational neural network architecture that will be used to classify digits. The architecture may include successive layers of convolution, pooling, and fully connected layers. 
+The choice of structure affects the typical important features of images and makes accurate predictions.
+
+Training :
+In this part of the project, the process of training the spinal neural network is carried out. Here learning parameters are defined such as functional loss (eg categorical cross entropy), optimizer (eg Adam) and learning rate. 
+The network is trained on the training data in order to minimize losses and achieve the best performance of the validation data.
+
+Testing :
+This part of the project measures the performance of training models on test data that the model has not seen before. Metrics such as accuracy (accuracy) are calculated to understand that a modern good model is able to classify new images of handwritten digits. 
+This makes it possible to assess the discussed capability of the model.
