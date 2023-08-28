@@ -374,7 +374,7 @@ if __name__=="__main__":
 
 ```
 
-### 5. Diagram and description
+## 5. Diagram and description
 
 ```
 
@@ -416,3 +416,8 @@ The network is trained on the training data in order to minimize losses and achi
 Testing :
 This part of the project measures the performance of training models on test data that the model has not seen before. Metrics such as accuracy (accuracy) are calculated to understand that a modern good model is able to classify new images of handwritten digits. 
 This makes it possible to assess the discussed capability of the model.
+
+Conclusion:
+The "Digit Classification" project allows you to apply convolutional neural networks to the problems of classifying handwritten digits. 
+It has four main components: data loading, rotational neural network structure, learning process, and performance evaluation. 
+The project allows you to study the principles of CNN operation by example, as well as apply them to the definition of classification problems.
